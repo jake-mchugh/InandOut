@@ -1,0 +1,9 @@
+version: 1.0
+runtime: php81
+build:
+  commands:
+    - echo "No custom build steps needed."
+run:
+  command: apache2-foreground
+  network:
+    port: 80
